@@ -1,0 +1,40 @@
+nav ul {
+    width: 100%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0;
+    list-style: none;
+    background-color: mediumseagreen;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-right: 1px solid black;
+}
+
+#headerImage {
+    width: 100%;
+}
+
+#mainContent {
+    background-color: yellow;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: black;
+    color:white;
+}

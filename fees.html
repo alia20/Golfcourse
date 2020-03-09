@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- fees.html - Group project
+        Written by:  Andrew Nielsen  Nielsena5@csp.edu 
+		Written: 12/1/2016
+		Revised: 12/3/2016
+   -->
+
+<!-- 
+Bootstrap Screen Resolutions:
+lg - Large width      retina    1200px+        
+md - medium width     desktop    992px+
+sm - small width      tablets    768px+
+xs - xtra small       mobile       0px+ 
+-->
+ <title>Hawk Pines Golf Course</title>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <span class="sr-only"><a href="#skip">Skip Navigation</a></span>
+            
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarcollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Hawk Pines Golf Course</a>
+        </div>
+        <div class="navbar-right collapse navbar-collapse" id="navbarcollapse">
+            <ul class="nav navbar-nav">         
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="teeTimes.html">Tee Times</a></li>
+                <li> <a href="fees.html">Course Fees</a></li>
+                <li> <a href="leagues.html">Leagues</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+                <li> <a href="#" data-toggle="dropdown">More<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="gallery.html">Photo Gallery</a></li>
+                        <li> <a href="clubhouse.html">Clubhouse</a></li>
+                        <li> <a href="#">Twitter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+   
+ <div class="table-responsive"> 
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>18 HOLE (RACK)</th>
+                                <th>MON-FRI</th>
+                                <th>WEEKENDS / HOLIDAYS</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Visitors</td>
+                                <td>$45.00</td>
+                                <td>$75.00</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>JUNIORS (7 - 17 YEARS OLD)</td>
+                                <td>$35.00</td>
+                                <td>$55.00
+</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>TWILIGHT(After 12:00 p.m.)</td>
+                                <td>$40.00</td>
+                                <td>$45.00</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>senior/college students</td>
+                                <td>$25</td>
+                                <td>$35</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>customer loyalty card</td>
+                                <td>$15</td>
+                                <td>$20</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>please fill out the form below to get more information on the fees of the golf course and to see if you there are promotional discounts available</p>
+                <form>
+                    <div class="form-group">
+                        <label for="inputFirstName">First Name</label>
+                        <input type="text" class="form-control" id="inputFirstName" placeholder="txtFirstName" value = "txtFirstName" name= "txtFirstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLastName">Last Name</label>
+                        <input type="text" class="form-control" id="inputLastName" placeholder="txtLastName" value = "txtLastName" name="txtLastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEmail">Email</label>
+                        <input type="email" class="form-control" id="txtEmail"  placeholder="Enter a valid e-mail address" name="txtEmail" required>
+                    </div>
+                    <h4>Occasion</h4>
+                    <div class="radio-inline">
+                        <label><input type="radio" name="opt1">First Time</label>
+                    </div>
+                    <div class="radio-inline">
+                        <label><input type="radio" name="opt2">Returning Customer</label>
+                    </div>
+                    
+                    <span class="sr-only">For Type</span>
+                    <h4>Interested In :</h4>
+                    <div class="checkbox-inline">
+                        <label><input type="checkbox" name="chkType"> Discounts</label>
+                    </div>
+                    <div class="checkbox-inline">
+                        <label><input type="checkbox" name="chkType"> Fee Information</label>
+                    </div><br>
+                    
+
+                    
+                    <button type="submit" class="btn btn-primary btn-sm" name="btnSubmit">Submit</button>
+                </form>
+
+  
+    
+<!-- After the page loads, and the user has something to look at, 
+     download the files needed for jQuery and Bootstrap.
+-->   
+<!-- (1) jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!-- (2) Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- (3) Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<!-- (4) Bring in local JavaScript functions -->
+<!-- <script src="script.js"></script> -->
+<link href="project.css" rel="stylesheet" type="text/css" />
+
+</body>
+</html>

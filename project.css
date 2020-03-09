@@ -1,0 +1,179 @@
+/*      project.css - style sheet for the group project 
+        Written by:  Andrew Nielsen  Nielsena5@csp.edu 
+        Csc135: Project CSS		
+		Written: 10/29/2016
+		Revised: 11/13/2016
+   */
+a {
+text-decoration:      none;
+}
+
+body {
+background:           #ffffe6;
+font-family:          optima, arial, helvetica, san-serif;
+font-size:            130%;
+line-height:          1.5;
+padding:              15px;
+}
+
+button {
+padding-left:         10px;
+}
+
+footer {
+background-color:     #737373;
+font-size:            1em;
+color:                white;
+}
+
+form {
+float:               left;
+max-width:           100%;
+}
+
+h1 {
+background:           #737373;
+color:                #ffff00;
+margin:               10px,10px;
+max-width:            1500px;
+padding:              10px;
+text-align:           center;
+
+}
+
+h3 {
+background:           #4e804f;
+color:                white;
+margin:               5px, auto;
+max-width:            1500px;
+padding:              5px,5px;
+text-align:           center;
+}
+
+nav .container-fluid .navbar-header a  {
+color:                #4e804f;
+font-size:            2em;
+}
+
+.aside {
+float:                right;
+max-width:            30%;
+}
+
+.carousel-inner  .item  img,
+.carousel-inner  .item  a  img {
+width:                100%;
+margin:               auto;
+}
+
+.colorRow {
+background:           #ffffff;
+border:               1px black solid;
+display:              block;
+height:               175px;
+margin:               0px auto;
+max-width:            1000px;
+padding:              2px 15px;
+}
+
+.colorBox {
+height:               80px;
+margin:               5px 5px 5px 0px;
+width:                80px;
+}
+
+.colorAndDesc {
+float:                left;
+width:                100px;
+}
+
+.container {
+max-width:            1500px;
+padding:              10px;
+}
+
+.input-group {
+padding:              10px;
+}
+
+.row {
+padding:              10px; 
+}
+
+.table {
+clear:                both;
+max-width:            960px;
+padding:              10px;
+}
+
+.thumbnail a {
+text-decoration:      none;
+}
+
+
+
+
+
+
+.book_date {
+    padding: 6px 8px;
+    border: 1px solid #00AD8A;
+    margin-bottom: 25px;
+}
+.people input[type="text"] {
+    border: 1px solid #00AD8A;
+    outline: none;
+    padding: 8px 8px;
+    width: 100%;
+    color: #000;
+    font-size: 0.9em;
+	background:transparent;
+}
+.glyphicon.glyphicon-calendar {
+    color: blue;
+}
+.types {
+    width: 99%;
+    padding: .4em 1em;
+    font-size: 1em;
+    outline: none;
+    text-transform: capitalize;
+    border: 1px solid #00AD8A;
+	color: #000;
+	    background: transparent;
+}
+.people input[type="submit"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1.5em;
+    background: #00AD8A;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.booking h5 {
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+.booking-grids {
+    margin-top: 2em;
+}
+.booking {
+	padding: 5em 0;
+	background:rgba(0, 173, 138, 0.06);
+}
+
+
+
+.footer{
+	background-color: #c5a8ff;
+	font-size: 1em;
+	color: white;
+}
+
+
+
+
+
+
+
