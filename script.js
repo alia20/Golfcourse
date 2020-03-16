@@ -1,5 +1,5 @@
 /* script.js - external JavaScript file for group project
-   Andrew Nielsen - Nielsena5@csp.edu
+   Andrew Nielsen - Nielsena5@csp.edu, Amin Ali  alia20@csp.edu, Awil Nur
    Written: 12-9-16
    Revisions: 12-12-16
    
